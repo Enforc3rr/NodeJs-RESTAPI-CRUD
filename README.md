@@ -14,10 +14,10 @@ This is a basic Node.Js based REST API that just performs simple CRUD operations
                    }
    
    #### Delete Request
-   ###### To Get Every Person -> http://localhost:8080/person/deleteperson/id
+   ###### To Delete A Person -> http://localhost:8080/person/deleteperson/id
    
    #### Patch Request
-   ###### To Get Every Person -> http://localhost:8080/person/updatepersonlang/id
+   ###### To Update A Person's Detail -> http://localhost:8080/person/updatepersonlang/id
    JSON Format = {
                    "language" : "Lang which you want to update to"
                    }
